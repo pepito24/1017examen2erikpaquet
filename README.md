@@ -15,5 +15,7 @@ Commandes nécessaires:
 
 ## Présentation de notre projet
 
-Mon projet vue.js est un résumer de mon apprentissage dans ce langage. Il met de l’avant un site de quelques pages, un menu fonctionnel, un formulaire et un exemple de connexion pour un utilisateur grâce a un vraie et faux.
+Mon projet vue.js est un résumer de mon apprentissage dans ce langage.
+
+Il met de l’avant un site de quelques pages, un menu fonctionnel, un formulaire et un exemple de connexion pour un utilisateur grâce a un vraie et faux.
 ***
