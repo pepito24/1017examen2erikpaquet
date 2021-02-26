@@ -1,4 +1,4 @@
-# License
+# Commentaire
 J’ai choisi cette licence car je crois quelle est la plus simple pour une application basique comme la mienne. 
 
 L’avis de licence et de copyright est important .
