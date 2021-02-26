@@ -2,7 +2,7 @@
   
   <div class="form">
   <h1 class="text-center">Contact</h1>
-
+  <!-- Formulaire de contact -->
     <form v-on:submit.prevent>
     
       <div class="form-group">
@@ -20,6 +20,7 @@
         <input type="email" class="form-control" name="courriel" id="courriel">
       </div>
 
+      <!-- Input avec choix de réponses (ligne 49-54) -->
       <div class="form-group">
         <label for="cateorie">Catégorie</label>
         <select name="categorie" id="cateorie" class="form-control">
@@ -35,15 +36,12 @@
 </template>
 
 
-
-
 <script>
-
-
 export default {
   name: "Contact",
   data() {
     return {
+    // choix de réponses pour le dernier input du formulaire (ligne 24-29)
       categories: [
         {nom: "State of decay 2"},
         {nom: "Totalwar Warhammer 1"},
@@ -54,27 +52,26 @@ export default {
     }
   }
 }
-
-
 </script>
+
 
 <style scoped>
 
-.form{
- width: 30%;
- margin: 5% 35%;
-}
+  .form{
+    width: 30%;
+    margin: 5% 35%;
+  }
 
-.form-group{
- margin-top: 15px;
-}
+  .form-group{
+    margin-top: 15px;
+  }
 
-button{
- margin-top: 25px;
-}
+  button{
+    margin-top: 25px;
+  }
 
-h1{
- margin-bottom: 50px;
-}
+  h1{
+    margin-bottom: 50px;
+  }
 
 </style>

@@ -1,4 +1,5 @@
 <template>
+<!-- Profil vue si l'utilisateur est connecté -->
   <div class="all">
 
   <header>
@@ -6,7 +7,6 @@
           <h1 >Bienvenue</h1>
         </div>
   </header>
-
 
   <div class="center">
       <div class="box">
@@ -59,39 +59,38 @@
 export default {
   name: "Profil",
   methods: {
+  // Déconnexion inutilisé mais disponible
   deconnection() {
     this.montrerProfile = false;
     this.loggedIn = false;
   }
   },
 }
-
 </script>
 
 <style scoped>
 
+  .center{
+    width:100%;
+    display:inline-flex;
+  }
 
-.center{
- width:100%;
- display:inline-flex;
-}
+  .box {
+    width:calc(50% - 40px);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding:30px;
+    margin:5% 15px
+  }
 
-.box {
-  width:calc(50% - 40px);
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  padding:30px;
-  margin:5% 15px
-}
+  .box:first-child{
+    margin-left:25px;
+  }
 
-.box:first-child{
-  margin-left:25px;
-}
-
-.orange{
-  background: #ff8400;
-}
-.white{
-  background: white;
-}
+  .orange{
+    background: #ff8400;
+  }
+  .white{
+    background: white;
+  }
 
 </style>

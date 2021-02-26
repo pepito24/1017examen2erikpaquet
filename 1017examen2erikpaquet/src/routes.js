@@ -1,4 +1,4 @@
-
+// routes pour le menu du projet
 import Accueil from './views/Accueil.vue';
 import Contact from './views/Contact.vue';
 import Projet from './views/Projet.vue';
