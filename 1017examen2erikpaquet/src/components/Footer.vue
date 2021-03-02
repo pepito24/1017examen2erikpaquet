@@ -14,7 +14,7 @@
         // fonction pour faire apparaître le copyright dans le footer
         copyright: { 
         bind: function(el) { 
-          el.innerHTML = 'Copyright ©' + new Date().getFullYear() + "- Le Corsaire du Web" + el.innerHTML ; 
+          el.innerHTML = ' MIT License - Copyright ©' + new Date().getFullYear() + "- Erik Paquet" + el.innerHTML ; 
         },
       },
     }
