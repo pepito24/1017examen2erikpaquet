@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-      <!-------- Copyright (ligne 13-15) --------->
+      <!-- Copyright (ligne 13-15) -->
       <p class="text-align-center" v-copyright></p> 
   </footer>
 </template>
